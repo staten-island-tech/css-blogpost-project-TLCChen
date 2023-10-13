@@ -18,8 +18,12 @@ body{
 }
 img{
     width: 50%;
+<<<<<<< HEAD
     height: auto;
     border-radius: 5%;
+=======
+    height: 50%;
+>>>>>>> 8b3759846f0c1e8c27f977f29537fa6c13e5eba2
 
 }
 .block{
