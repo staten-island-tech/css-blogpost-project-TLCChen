@@ -1,37 +1,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blogpost Tian Lang Chen</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
-
 </head>
 <body>
-    <h1 class="title"> Great Destinations</h1>
-    <h5 class="text" id="id">By Tian Lang Chen</h5>
-    <div class="block" id="color1">
-        <h3>The Great Wall of China</h3>
-        <a href="https://www.youtube.com/watch?v=do1Go22Wu8o">Great Wall of China.</a>
-        <p>The Great Wall of <span class="cow">China</span> is a wall that is great.</p>
-        <img src="img/wall.webp" alt="Great Wall of China">
+    <audio id="myAudio">
+        <source src="music/Alan Walker - Tired (Instrumental).mp3" type="audio/ogg">
+        <source src="music/Alan Walker - Tired (Instrumental).mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      
+      <button onclick="playAudio()" type="button">Play Audio</button>
+      <button onclick="pauseAudio()" type="button">Pause Audio</button> 
+    
+      <div class="box">
+        <div class="card">
+            <button class="btn">Next</button>
+            <h2>When you have too much work.</h2>
+            <img src="img/boxman1.png" alt="">
+        </div>
     </div>
-
-    <div class="block" id="color2">
-        <h3>The Statue of Liberty</h3>
-        <a href="https://www.youtube.com/watch?v=9qhXGbO5KSc">Statue of Liberty</a>
-        <p>The Statue of Liberty was a gift from <span class="cow">France</span>.</p>
-        <img src="img/statue2.jpg" alt="Statue of Liberty">
-    </div>
-
-    <div class="block" id="color3">
-        <h3>The Eiffel Tower</h3>
-        <a href="https://www.youtube.com/watch?v=UqHa1XJWODI">Eiffel Tower</a>
-        <p>The Eiffel Tower was not a gift from <span class="cow">America</span>.</p>
-        <img src="img/tower.webp" alt="Eiffel Tower">
-    </div>
+    <script src="main.js"></script>
 </body>
 </html>
