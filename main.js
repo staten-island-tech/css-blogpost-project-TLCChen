@@ -10,18 +10,7 @@ function pauseAudio() {
   x.pause();
 }
 
-// var audio = new Audio("music/Alan Walker - Tired (Instrumental).mp3");
-// audio.play();
-
-document.querySelector(".btn").addEventListener("click", function () {
-  if (document.querySelector(".btn").innerHTML === "Next") {
-    document.querySelector(".card").remove();
-    document.querySelector(".box").insertAdjacentHTML(
-      "afterbegin",
-      `<div class="card">
-        <h2>But you have good friends.</h2>
-        <img src="img/ants1.jpg" alt="">
-    </div>`
-    );
-  }
-});
+var audio1 = new Audio(
+  "music/Rick Astley - Never Gonna Give You Up (Official Music Video).mp3"
+);
+audio1.play();
