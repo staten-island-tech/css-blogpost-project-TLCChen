@@ -1,16 +1,21 @@
 // console.log(4);
 
-var x = document.getElementById("myAudio");
+// var x = document.getElementById("myAudio");
 
-function playAudio() {
-  x.play();
-}
+// function playAudio() {
+//   x.play();
+// }
 
-function pauseAudio() {
-  x.pause();
-}
+// function pauseAudio() {
+//   x.pause();
+// }
 
-var audio1 = new Audio(
+const audio1 = new Audio(
   "music/Rick Astley - Never Gonna Give You Up (Official Music Video).mp3"
 );
+
 audio1.play();
+
+document.querySelector(".btn").addEventListener("click", function () {
+  audio1.play();
+});
